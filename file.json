@@ -1,0 +1,127 @@
+[
+  {
+    "question": "What are three crucial steps I must take before beginning any repair?",
+    "context": "You should always back up the iPhone's data to prevent loss. The device must be completely turned off and all external cables disconnected. ... To prevent damage from electrostatic discharge (ESD), wear an ESD wrist strap and connect it to a properly grounded ESD mat.",
+    "ground_truth_answer": "Before starting a repair, you must always back up the iPhone's data to prevent data loss, ensure the device is completely turned off with all external cables disconnected, and wear an ESD wrist strap connected to a grounded ESD mat to prevent ESD damage."
+  },
+  {
+    "question": "What is the 'System Configuration' tool and what does it do?",
+    "context": "Many repairs require a software tool called System Configuration, also referred to as Repair Assistant, to complete the process. This tool transfers factory calibration values for parts like displays, cameras, and ambient light sensors to ensure maximum performance. It also links the Secure Enclave and biometric authentication parts, such as Touch ID or Face ID, to ensure device security after a repair.",
+    "ground_truth_answer": "System Configuration, also known as Repair Assistant, is a software tool required to complete many repairs. It ensures maximum performance by transferring factory calibration values for parts like displays and cameras. It also ensures device security by linking the Secure Enclave and biometric parts, such as Face ID, after a repair."
+  },
+  {
+    "question": "My iPhone has distorted sound coming from the speakers. What is the recommended fix?",
+    "context": "For audio issues, symptoms include no, low, or distorted sound from speakers, a non-functional ringer, or others not being able to hear you on calls. For these issues, replacing the top speaker, bottom speaker, or main microphone is recommended.",
+    "ground_truth_answer": "For audio issues, which include distorted sound from speakers, the recommended repair is replacing the top speaker, bottom speaker, or main microphone."
+  },
+  {
+    "question": "I am getting an alert that 'Face ID has been disabled.' What part needs to be replaced?",
+    "context": "For Face ID issues, symptoms include setup failure, a lack of facial recognition, or an alert stating \"Face ID has been disabled\". The recommended repair for this is to replace the TrueDepth camera.",
+    "ground_truth_answer": "When an alert states 'Face ID has been disabled,' which is a symptom of a Face ID issue, the recommended repair is to replace the TrueDepth camera."
+  },
+  {
+    "question": "What is the danger of improperly disassembling the TrueDepth Camera?",
+    "context": "TrueDepth Camera: This front-facing camera assembly includes sensors for Face ID. Improper disassembly or use of non-genuine parts can expose the user to hazardous infrared laser emissions, causing eye or skin injury.",
+    "ground_truth_answer": "Improper disassembly of the TrueDepth camera, or using non-genuine parts for it, can expose the user to hazardous infrared laser emissions, which may cause eye or skin injury."
+  },
+  {
+    "question": "What specific tool is used to soften the adhesive when separating the display from the enclosure?",
+    "context": "Heated Display Removal Fixture: This tool softens the adhesive to separate the display from the enclosure.",
+    "ground_truth_answer": "The 'Heated Display Removal Fixture' is the tool used to soften the adhesive in order to separate the display from the enclosure."
+  },
+  {
+    "question": "Is liquid damage covered by the Apple One-Year Limited Warranty?",
+    "context": "Water and other liquid damage to an iPhone is not covered by the Apple One-Year Limited Warranty.",
+    "ground_truth_answer": "No, water and other liquid damage to an iPhone is not covered by the Apple One-Year Limited Warranty."
+  },
+  {
+    "question": "How can I check if my iPhone has water damage using the LCI?",
+    "context": "iPhones and most iPod devices built after 2006 have built-in Liquid Contact Indicators (LCI) to show if the device has been in contact with water... The LCI is normally white or silver, but it will turn fully red when it comes into contact with liquid. On many iPhone models, the LCI is located in the SIM card slot, which you can check by removing the SIM card tray and shining a flashlight into the slot.",
+    "ground_truth_answer": "You can check the built-in Liquid Contact Indicator (LCI), which is located in the SIM card slot on many iPhone models. You must remove the SIM card tray and shine a flashlight into the slot. If the LCI, which is normally white or silver, has turned fully red, it has been in contact with liquid."
+  },
+  {
+    "question": "What is ProMotion and which iPhone models have it?",
+    "context": "ProMotion: This is Apple's marketing term for an adaptive refresh rate display that can dynamically adjust its refresh rate between 1Hz and 120Hz. ... ProMotion is a feature exclusive to iPhone Pro models.",
+    "ground_truth_answer": "ProMotion is Apple's marketing term for an adaptive refresh rate display that can dynamically adjust its refresh rate between 1Hz and 120Hz. This feature is exclusive to iPhone Pro models."
+  },
+  {
+    "question": "I got a 'Liquid Detected in Lightning Connector' alert. What should I do?",
+    "context": "\"Liquid Detected in Lightning Connector\": This alert appears if the iPhone detects moisture in the charging port. The phone will not charge to prevent corrosion. You should tap the iPhone gently against your hand with the connector facing down to remove excess liquid, then leave the device to dry in a well-ventilated area for at least 30 minutes.",
+    "ground_truth_answer": "This alert means moisture was detected in the charging port, and the phone will not charge to prevent corrosion. You should gently tap the iPhone against your hand with the connector facing down to remove excess liquid, and then leave the device to dry in a well-ventilated area for at least 30 minutes."
+  },
+  {
+    "question": "Why must new display adhesive be used during reassembly?",
+    "context": "Display Adhesive: A single-use gasket that provides water resistance and structural integrity. A new display adhesive should always be used for reassembly.",
+    "ground_truth_answer": "A new display adhesive must always be used during reassembly because it is a single-use gasket that provides water resistance and structural integrity."
+  },
+  {
+    "question": "When is an iPhone battery considered 'significantly degraded'?",
+    "context": "If a battery's health is below 80% maximum capacity, it is considered significantly degraded and may need to be replaced.",
+    "ground_truth_answer": "A battery is considered significantly degraded if its battery health falls below 80% maximum capacity, at which point it may need to be replaced."
+  },
+  {
+    "question": "What is the warranty policy if damage occurs during a repair done by someone other than Apple or an Authorized Service Provider?",
+    "context": "Damage resulting from repairs performed outside of Apple or Apple Authorized Service Provider networks is not covered by Apple's warranty or AppleCare plans, and may lead to out-of-warranty costs.",
+    "ground_truth_answer": "Damage that results from repairs performed outside of Apple or Apple Authorized Service Provider networks is not covered by Apple's warranty or AppleCare plans. This may lead to out-of-warranty costs."
+  },
+  {
+    "question": "Why is it required to never reuse old screws during a repair?",
+    "context": "Furthermore, you must never reuse old screws as they contain non-reusable adhesive. Loose or extra screws and small parts left inside the device can damage the battery and pose safety risks.",
+    "ground_truth_answer": "You must never reuse old screws because they contain non-reusable adhesive. Additionally, loose screws or other small parts left inside the device can damage the battery and pose safety risks."
+  },
+  {
+    "question": "What is the purpose of the 'Apple Diagnostics for Self Service Repair' tool?",
+    "context": "You can also run Apple Diagnostics for Self Service Repair, a tool used to isolate issues, verify part replacement, and confirm repair success.",
+    "ground_truth_answer": "Apple Diagnostics for Self Service Repair is a tool used to isolate issues, verify that a part replacement was successful, and confirm the success of the repair."
+  },
+  {
+    "question": "My iPhone does not vibrate when it should. What is the likely issue and the recommended fix?",
+    "context": "For Haptic feedback issues, the main symptom is that the iPhone does not vibrate when expected. The recommended repair is to replace the Taptic Engine.",
+    "ground_truth_answer": "The main symptom for haptic feedback issues is the iPhone not vibrating when expected. The recommended repair for this is to replace the Taptic Engine."
+  },
+  {
+    "question": "Why is it important to use genuine Apple parts for quality and reliability?",
+    "context": "Genuine Apple parts are engineered and tested for each product, and they undergo extensive testing to ensure high quality, integrity, and reliability. The parts are also individually calibrated with data that is uploaded to Apple's servers at the time of manufacture.",
+    "ground_truth_answer": "It is important because genuine Apple parts are specifically engineered and extensively tested for each product to ensure high quality, integrity, and reliability. They are also individually calibrated with data uploaded to Apple's servers at the time of manufacture to meet performance and safety standards."
+  },
+  {
+    "question": "Does a new replacement battery come fully charged?",
+    "context": "A new battery is not charged and must be charged after reassembly.",
+    "ground_truth_answer": "No, a new battery is not charged. It must be charged after the device is reassembled."
+  },
+  {
+    "question": "What are the benefits of using Apple-designed specialized tools for repairs?",
+    "context": "Apple-designed tools ensure appropriate heat, force, and torque for professional use. These tools are custom-designed to provide the best repairs for Apple products and are engineered to withstand the rigor of professional repair operations where safety and reliability are the highest priority.",
+    "ground_truth_answer": "Apple-designed tools ensure that the appropriate heat, force, and torque are used. They are custom-designed to provide the best repairs and are engineered to withstand professional repair operations where safety and reliability are the highest priority."
+  },
+  {
+    "question": "My iPhone is running slowly and freezing. What are the likely software-based causes?",
+    "context": "If an iPhone is performing slowly, freezing, or experiencing app crashes, the cause may be an outdated iOS version or a software glitch. ... Insufficient storage space can also cause performance issues and prevent software updates.",
+    "ground_truth_answer": "Slow performance, freezing, or app crashes may be caused by an outdated iOS version, a software glitch, or insufficient storage space."
+  },
+  {
+    "question": "What is the final software step for troubleshooting Wi-Fi if 'forgetting the network' doesn't work?",
+    "context": "If the problem persists, try forgetting the Wi-Fi network or Bluetooth device and then re-pairing it. You can also reset your network settings, which will erase all saved Wi-Fi networks and passwords, cellular settings, and VPN configurations.",
+    "ground_truth_answer": "If forgetting the network and re-pairing doesn't work, you can also reset your network settings. Note that this will erase all saved Wi-Fi networks, passwords, cellular settings, and VPN configurations."
+  },
+  {
+    "question": "What are the two methods described for backing up an iPhone?",
+    "context": "Users can back up their iPhone using iCloud or a computer. iCloud provides automatic daily backups when the iPhone is connected to power, locked, and on Wi-Fi. A computer backup can be performed by connecting the iPhone with a cable and using Finder on a Mac or iTunes on an older PC.",
+    "ground_truth_answer": "The two described methods are using iCloud or a computer. iCloud provides automatic daily backups (when connected to power, locked, and on Wi-Fi), while a computer backup is performed by connecting the iPhone via cable and using Finder (on Mac) or iTunes (on older PCs)."
+  },
+  {
+    "question": "How can a customer check their warranty status?",
+    "context": "Customers can check their warranty status by going to Settings > General > About > Limited Warranty on their device or by entering the serial number on Apple's official website.",
+    "ground_truth_answer": "A customer can check their warranty status in two ways: either on their device by navigating to Settings > General > About > Limited Warranty, or by entering the device's serial number on Apple's official website."
+  },
+  {
+    "question": "How do you run 'sysdiagnose' on an iPhone?",
+    "context": "You can run sysdiagnose by simultaneously pressing and holding both volume buttons and the side button for 1 to 1.5 seconds.",
+    "ground_truth_answer": "To run sysdiagnose, you must simultaneously press and hold both volume buttons and the side button for 1 to 1.5 seconds."
+  },
+  {
+    "question": "What is the purpose of the True Tone display feature?",
+    "context": "True Tone: This is a display feature that uses advanced sensors to automatically adjust the screen's white balance and intensity to match the ambient light around you. The purpose is to provide a more natural, paper-like viewing experience and reduce eye strain.",
+    "ground_truth_answer": "True Tone is a display feature that uses advanced sensors to automatically adjust the screen's white balance and intensity to match the surrounding ambient light. Its purpose is to reduce eye strain and provide a more natural, paper-like viewing experience."
+  }
+]

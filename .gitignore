@@ -1,0 +1,35 @@
+# ------------------------------------
+# 1. Environment and Dependency Files
+# ------------------------------------
+# Ignore the Python virtual environment folder
+infenv/
+.env
+
+# ------------------------------------
+# 2. Project-Specific Files & Data
+# ------------------------------------
+# Ignore the FAISS vector index directory (large, rebuildable data)
+faiss_index/
+.faiss_index_temp/
+
+# Google Sheets service account credentials (Sensitive/local)
+credentials.json
+
+# --- General Python Artifacts ---
+# Byte-compiled / optimized / dynamically loaded files
+__pycache__/
+*.pyc
+*.pyd
+*.so
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints
+
+# ------------------------------------
+# 3. Development Environment Files
+# ------------------------------------
+# VS Code specific files (user settings for this workspace)
+.vscode/
+
+# Streamlit specific cached data (local)
+.streamlit/

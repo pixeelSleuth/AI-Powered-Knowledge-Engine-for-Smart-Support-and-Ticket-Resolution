@@ -1,0 +1,21 @@
+query,gold_tags
+My iPhone won't charge after getting wet,"maintainance,refund"
+Display isn’t working and there are lines on the screen,product support
+Camera always blurry after update,product support
+Battery drains very fast even when unused,maintainance
+Face ID stopped working after drop,product support
+"Want a replacement, current device is unresponsive",refund
+Requesting urgent support for warranty claim,"high_priority_product,refund"
+Need help with lost data after battery replacement,product support
+"Audio speakers aren't working, no sound","product support,maintainance"
+App crashes after latest iOS update,product support
+My iPhone is overheating and won’t turn on,"maintainance,high_priority_product"
+SIM card not detected and shows no service,maintainance
+"Accidentally broke screen, does warranty cover it?",refund
+"Require urgent refund, sent device for repair twice","refund,high_priority_product"
+How can I get a new charger replacement?,product support
+Bluetooth accessories won't connect,product support
+"iCloud backup failed, cannot restore new device",product support
+Liquid detected in Lightning connector message,maintainance
+Accessory not certified error shows with charger,product support
+Want to escalate ticket for unresolved issue,high_priority_product
